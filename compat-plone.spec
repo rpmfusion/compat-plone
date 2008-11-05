@@ -6,7 +6,7 @@
 
 Name:           compat-plone
 Version:        3.1.4
-Release:        2%{?dist}
+Release:        2%{?dist}.1
 Summary:        User friendly and powerful open source Content Management System
 License:        GPLv2+
 Group:          System Environment/Daemons
@@ -63,6 +63,9 @@ rm -rf $RPM_BUILD_ROOT
 %{software_home}/borg/
 
 %changelog
+* Wed Nov 05 2008 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info> - 3.1.4-2.1
+- rebuilt
+
 * Sun Aug 10 2008 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info - 3.1.4-2
 - rebuild for RPM Fusion
 
